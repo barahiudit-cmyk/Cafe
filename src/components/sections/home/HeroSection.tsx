@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative min-h-[10dvh] h-screen lg:h-screen lg:min-h-[600px] lg:max-h-[960px] overflow-hidden flex items-end"
+      className="relative min-h-[100dvh]  lg:h-screen lg:min-h-[600px] lg:max-h-[960px] overflow-hidden flex items-end"
       aria-label="Hero">
       {/* Parallax Background */}
       <motion.div className="absolute inset-0 w-full h-full" style={{ y }}>
@@ -38,7 +38,7 @@ export default function HeroSection() {
 
       {/* Content */}
       <motion.div
-        className="relative z-10  w-full pt-2 pb-30 md:pt-32 md:pb-24 px-4" style={{ opacity }}
+        className="relative z-10  w-full pt-2 pb-40 md:pt-32 md:pb-24 px-4" style={{ opacity }}
       >
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-row items-end justify-between gap-4 sm:gap-6 lg:gap-16">
@@ -197,7 +197,7 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="sm:flex absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
+        className="sm:flex absolute bottom-14 md:bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
       >
         <span className="text-[10px] md:text-xs text-white/50 tracking-widest uppercase font-medium">
           Scroll to explore

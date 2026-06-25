@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative min-h-[78dvh] lg:h-screen lg:min-h-[600px] lg:max-h-[960px] overflow-hidden flex items-end"
+      className="relative min-h-[10dvh] h-screen lg:h-screen lg:min-h-[600px] lg:max-h-[960px] overflow-hidden flex items-end"
       aria-label="Hero">
       {/* Parallax Background */}
       <motion.div className="absolute inset-0 w-full h-full" style={{ y }}>

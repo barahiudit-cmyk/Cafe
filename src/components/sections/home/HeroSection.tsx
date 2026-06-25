@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowDown, MapPin, Calendar, Coffee } from 'lucide-react';
 import { SITE_CONFIG } from '@/lib/constants';
 
-const HERO_IMAGE = '/public/hero-img/Black and Orange Bold Modern Food Video.gif';
+const HERO_IMAGE = '/hero-img/Black and Orange Bold Modern Food Video.gif';
 
 export default function HeroSection() {
   const ref = useRef<HTMLElement>(null);

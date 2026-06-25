@@ -111,24 +111,24 @@ export const HIGHLIGHTS = [
     icon: '☕',
     title: 'Third-Wave Coffee',
     description: 'Single-origin beans sourced directly from Coorg, Chikmagalur, and global estates.',
-    sticker: '/public/coffe.png', 
+    sticker: '/coffe.png', 
   },
   {
     icon: '🌍',
     title: 'Global Flavors',
     description: 'A culinary journey through flavors of India, Japan, Italy, Mexico, and beyond.',
-    sticker: '/public/world.png', 
+    sticker: '/world.png', 
   },
   {
     icon: '🌿',
     title: 'Ethically Sourced',
     description: 'Farm-to-cup philosophy. We know the name of every farmer behind your cup.',
-    sticker: '/public/leaf.png', 
+    sticker: '/leaf.png', 
   },
   {
     icon: '🎨',
     title: 'Curated Ambience',
     description: 'An interior designed to inspire — warm tones, local art, and natural materials.',
-    sticker: '/public/colorboard.png', 
+    sticker: '/colorboard.png', 
   },
 ] as const;

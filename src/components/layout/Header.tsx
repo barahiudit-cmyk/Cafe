@@ -103,7 +103,7 @@ export default function Header() {
             <Link
               to="/"
               className="flex items-center gap-2.5 group"
-              aria-label="Latte Global Cafe — Home"
+              aria-label="SlowDrew Cafe — Home"
             >
               <div className="w-9 h-9 rounded-full bg-[var(--accent)] flex items-center justify-center flex-shrink-0 transition-transform group-hover:scale-105">
                 <Coffee size={18} className="text-white" />
@@ -113,7 +113,7 @@ export default function Header() {
                   className="font-heading font-bold text-lg leading-none tracking-tight text-[var(--text-primary)]"
                   style={{ fontFamily: 'var(--font-heading)' }}
                 >
-                  Latte Global
+                  SlowDrew
                 </span>
                 <span className="block text-caption text-[var(--text-muted)] mt-0.5">
                   CAFE · VIZAG
@@ -273,7 +273,7 @@ export default function Header() {
                     <Coffee size={16} className="text-white" />
                   </div>
                   <span className="font-heading font-bold text-[var(--text-primary)]" style={{ fontFamily: 'var(--font-heading)' }}>
-                    Latte Global
+                    SlowDrew
                   </span>
                 </Link>
                 <button

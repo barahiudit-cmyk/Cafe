@@ -32,7 +32,7 @@ export default function AboutPreviewSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-[var(--shadow-xl)]">
               <img
                 src={IMAGES[0]}
-                alt="Latte Global Cafe interior"
+                alt="SlowDrew Cafe interior"
                 className="w-full h-96 lg:h-[480px] object-cover"
               />
             </div>
@@ -91,11 +91,11 @@ export default function AboutPreviewSection() {
               className="text-pull-quote text-[var(--text-secondary)] mb-6"
               style={{ fontFamily: 'var(--font-accent)' }}
             >
-              "We opened Latte Global because Vizag deserved a cafe that treats coffee as the extraordinary agricultural product it is — while also celebrating the flavors of our coastal home."
+              "We opened SlowDrew because Vizag deserved a cafe that treats coffee as the extraordinary agricultural product it is — while also celebrating the flavors of our coastal home."
             </p>
 
             <p className="text-base text-[var(--text-secondary)] leading-relaxed mb-6">
-              Founded by Q-Grader certified barista Arjun Naidu and Cordon Bleu-trained chef Meera Sharma, Latte Global Cafe sits at the intersection of world-class coffee culture and the bold, layered flavors of India's culinary heritage.
+              Founded by Q-Grader certified barista Arjun Naidu and Cordon Bleu-trained chef Meera Sharma, SlowDrew Cafe sits at the intersection of world-class coffee culture and the bold, layered flavors of India's culinary heritage.
             </p>
 
             <p className="text-base text-[var(--text-secondary)] leading-relaxed mb-10">

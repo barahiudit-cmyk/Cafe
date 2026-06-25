@@ -21,7 +21,7 @@ export default function HeroSection() {
       <motion.div className="absolute inset-0 w-full h-full" style={{ y }}>
         <img
           src={HERO_IMAGE}
-          alt="Barista crafting a pour-over at Latte Global Cafe"
+          alt="Barista crafting a pour-over at SlowDrew Cafe"
           className="w-full h-full object-cover"
         />
         <div className="hero-overlay absolute inset-0" />

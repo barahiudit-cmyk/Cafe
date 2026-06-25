@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="block font-heading font-bold text-lg text-[var(--text-primary)] leading-none" style={{ fontFamily: 'var(--font-heading)' }}>
-                  Latte Global
+                  SlowDrew
                 </span>
                 <span className="text-caption text-[var(--text-muted)]">CAFE · VIZAG</span>
               </div>
@@ -143,7 +143,7 @@ export default function Footer() {
       <div className="container-custom py-5">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[var(--text-muted)]">
           <p>
-            © {year} Latte Global Cafe. All rights reserved.
+            © {year} SlowDrew Cafe. All rights reserved.
             <br/>
             By: <a href="https://barahiudit.netlify.app" className="border-b text-sm "> Barahiudit.netlify.app</a>
           </p>

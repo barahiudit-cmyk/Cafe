@@ -12,7 +12,7 @@ export default function ReservationCTASection() {
       <div className="absolute inset-0">
         <img
           src={BG}
-          alt="Latte Global Cafe terrace"
+          alt="SlowDrew Cafe terrace"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/65" />
@@ -41,7 +41,7 @@ export default function ReservationCTASection() {
           >
             Reserve Your Table at
             <br />
-            <span className="text-[var(--accent)]">Latte Global Cafe</span>
+            <span className="text-[var(--accent)]">SlowDrew Cafe</span>
           </motion.h2>
 
           <motion.p

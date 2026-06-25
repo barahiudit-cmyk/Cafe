@@ -215,12 +215,12 @@ export default function Header() {
               </button>
 
          
-              <Link
+              {/* <Link
                 to="/reservations"
                 className="hidden md:flex items-center gap-2 ml-2 px-5 py-2 bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white text-sm font-medium rounded-lg transition-colors duration-200"
               >
                 Reserve a Table
-              </Link>
+              </Link> */}
 
               {/* Mobile Menu Toggle */}
               <button

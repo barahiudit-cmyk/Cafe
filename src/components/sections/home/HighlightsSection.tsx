@@ -26,7 +26,7 @@ export default function HighlightsSection() {
 
               <div className="relative z-10">
                 {/* Content */}
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-1 mb-2">
                   <span
                     className="text-4xl relative z-10 flex-shrink-0"
                     aria-hidden="true">
